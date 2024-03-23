@@ -1,9 +1,14 @@
 import './App.css';
+import TopBar from './TopBar.js'
+import Image from './Image.js'
+import StoreListing from './StoreListing.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Image />
+      <StoreListing />
     </div>
   );
 }
